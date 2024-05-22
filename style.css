@@ -1,0 +1,25 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid red;
+}
+.form{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.label{
+
+}

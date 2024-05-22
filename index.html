@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="page">
+    <form action="#" class="form">
+       <label class="label">Name
+        <input type="text"  name="login">
+       </label>
+        <label class="label">Password
+            <input type="password"  name="pass">
+        </label>
+    </form>   
+    <button class="btn">Buttone1</button>
+    <button class="btn">Buttone2</button>
+</div>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyC9yCZIEVNrPWv-5rHMlCHPZAcqE6nDdd0",
+      authDomain: "artdata-d7a5a.firebaseapp.com",
+      databaseURL: "https://artdata-d7a5a-default-rtdb.firebaseio.com",
+      projectId: "artdata-d7a5a",
+      storageBucket: "artdata-d7a5a.appspot.com",
+      messagingSenderId: "228249387425",
+      appId: "1:228249387425:web:7ca6edf82dfabfea594be0"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
